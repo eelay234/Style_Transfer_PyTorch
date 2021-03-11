@@ -1,6 +1,6 @@
 # Style_Transfer_PyTorche 
 This project is working on the challenging problem of "style transfer by using PyTorch" of Fellowship.AI. The missing code of original code was filled in and the code was debugged to make it work for satisfactory result. In addition, version 2 was created to make the project work even the  size of style image is different from the size of content image. 
 
-This project is incorporating the style of a style geimage onto a content image and generating a styled content image according to the problem description and comments in the code. The implementation is adding the code of calculating content loss ioand style loss to the code of doing computer vision. 
+This project is incorporating the style of a style image onto a content image and generating a styled content image according to the problem description and comments in the code. The implementation is adding the code of calculating content loss and style loss to the code of doing computer vision. 
 
 To solve the challenging problem of this project, missing part is filled in with the code of loading image, scaling image, and transforming image to a tensor. The code was also debugged and then added the code of doing back-propagation to compute the gradient and update the weights to have better satisfactory result. In addition, version 2 as extra work was created to match the size of style image and content image in the preprocessing step such that content image could be styled with the style image that is different for its size.
